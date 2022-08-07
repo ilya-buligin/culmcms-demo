@@ -3,6 +3,7 @@
     {
       type: "Singleton",
       label: "Base singleton",
+      slug: "base/ss",
       path: "signleton.json",
       fields: [
         {
