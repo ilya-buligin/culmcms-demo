@@ -1,19 +1,26 @@
 {
   entities: [
     {
-      label: "Some string",
-      type: "String",
-      key: "string"
-    },
-    {
-      label: "Some number",
-      type: "Number",
-      key: "number"
-    },
-    {
-      label: "Checkbox",
-      type: "Boolean",
-      key: "boolean"
+      type: "singleton",
+      label: "SingleTon",
+      path: "signleton.json",
+      fields: [
+        {
+          type: "String",
+          label: "Short text",
+          key: "string"
+        },
+        {
+          type: "Number",
+          label: "Number",
+          key: "number"
+        },
+        {
+          type: "Boolean",
+          label: "Checkbox",
+          key: "boolean"
+        }
+      ]
     }
   ]
 }
