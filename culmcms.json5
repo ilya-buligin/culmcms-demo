@@ -1,1 +1,19 @@
-{}
+{
+  entities: [
+    {
+      label: "Some string",
+      type: "String",
+      key: "string"
+    },
+    {
+      label: "Some number",
+      type: "Number",
+      key: "number"
+    },
+    {
+      label: "Checkbox",
+      type: "Boolean",
+      key: "boolean"
+    }
+  ]
+}
