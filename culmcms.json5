@@ -2,7 +2,7 @@
   entities: [
     {
       type: "Singleton",
-      label: "SingleTon",
+      label: "Base singleton",
       path: "signleton.json",
       fields: [
         {
